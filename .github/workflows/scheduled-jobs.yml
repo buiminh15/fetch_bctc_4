@@ -53,6 +53,22 @@ jobs:
           - bctc-tbc.js
           - bctc-ted.js
           - bctc-vcs.js
+          - bctc-abw.js
+          - bctc-agr.js
+          - bctc-apg.js
+          - bctc-bms.js
+          - bctc-bsi.js
+          - bctc-bvs.js
+          - bctc-cts.js
+          - bctc-evs.js
+          - bctc-fts.js
+          - bctc-ors.js
+          - bctc-sbs.js
+          - bctc-shs.js
+          - bctc-vci.js
+          - bctc-vds.js
+          - bctc-vfs.js
+          - bctc-vix.js
 
     steps:
       - name: "❗️ Skip 23:00 if in special periods"
