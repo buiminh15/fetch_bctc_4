@@ -69,6 +69,15 @@ jobs:
           - bctc-vds.js
           - bctc-vfs.js
           - bctc-vix.js
+          - bctc-eib.js
+          - bctc-lpb.js
+          - bctc-ssb.js
+          - bctc-tcb.js
+          - bctc-vcb.js
+          - bctc-vib.js
+          - bctc-vnd.js
+          - bctc-vpb.js
+          - bctc-msb.js
 
     steps:
       - name: "❗️ Skip 23:00 if in special periods"
