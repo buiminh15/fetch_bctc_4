@@ -47,7 +47,10 @@ const COMPANIES = {
   PGB: 'PGB',
   VAB: 'VAB',
   KLB: 'KLB',
-  SGB: 'SGB'
+  SGB: 'SGB',
+  PVI: 'PVI',
+  AST: 'AST',
+  DNW: 'DNW',
 };
 
 const CAFEF_API = `https://cafef.vn/du-lieu/Ajax/CongTy/BaoCaoTaiChinh.aspx?sym=`;
