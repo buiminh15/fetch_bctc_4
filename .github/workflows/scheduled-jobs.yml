@@ -92,6 +92,7 @@ jobs:
           - bctc-tpb.js
           - bctc-vab.js
           - bctc-vbb.js
+          - bctc-aps.js
 
     steps:
       - name: "❗️ Skip 23:00 if in special periods"
