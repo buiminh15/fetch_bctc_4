@@ -18,7 +18,7 @@ axiosRetry.default(axios, {
 async function fetchAndExtractData() {
   try {
     const response = await axios.get(
-      'https://gateway.fpts.com.vn/news/api/gateway/v1/mobile/list?folder=86&code=PMS&pageSize=8&selectedPage=1&cbtt=1&from=01-01-1970&to=01-01-3000&newsType=1',
+      'https://gateway.fpts.com.vn/news/api/gateway/v1/mobile/list?folder=86&code=MPC&pageSize=8&selectedPage=1&cbtt=1&from=01-01-1970&to=01-01-3000&newsType=1',
       {
         headers: {
           'Accept': 'application/json',
@@ -46,10 +46,10 @@ async function fetchAndExtractData() {
     }
     console.log('📢 [bctc-SAF.js:50]', names);
     // Lọc ra các báo cáo chưa có trong DB
-    const newNames = await filterNewNames(names, COMPANIES.PMS);
+    const newNames = await filterNewNames(names, COMPANIES.MPC);
     console.log('📢 [bctc-geg.js:44]', newNames);
     if (newNames.length) {
-      await insertBCTC(newNames, COMPANIES.PMS);
+      await insertBCTC(newNames, COMPANIES.MPC);
 
       // Gửi thông báo Telegram cho từng báo cáo mới;
       await Promise.all(

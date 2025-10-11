@@ -51,6 +51,7 @@ const COMPANIES = {
   PVI: 'PVI',
   AST: 'AST',
   DNW: 'DNW',
+  MPC: 'MPC',
 };
 
 const CAFEF_API = `https://cafef.vn/du-lieu/Ajax/CongTy/BaoCaoTaiChinh.aspx?sym=`;
