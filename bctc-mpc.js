@@ -54,7 +54,7 @@ async function fetchAndExtractData() {
       // Gửi thông báo Telegram cho từng báo cáo mới;
       await Promise.all(
         newNames.map(name =>
-          sendTelegramNotification(`Báo cáo tài chính của PMS::: ${name}`)
+          sendTelegramNotification(`Báo cáo tài chính của MPC::: ${name}`)
         )
       );
       console.log(`Đã thêm ${newNames.length} báo cáo mới và gửi thông báo.`);
